@@ -1,0 +1,14 @@
+i = 9
+
+print(i)
+if (i%2) == 1:
+    print("number is odd")
+else:
+    print("number is even")
+
+
+def add(a,b):
+    return a + b
+
+print(add(8,9))
+
