@@ -82,7 +82,7 @@
         - `i` is not a loop variable in the sense like the one in the `for` loops
         - the loop code block changes the value of `i`, in this case decrementing it
         - the moment `i` becomes zero, the loop will stop
-      
+        
       Create your own `while` loop and experiment with it.
    
    5. A `while` loop can stop if some condition becomes `True` _inside_ the code block itself. This is accomplished with the keyword `break`. Here is an example:

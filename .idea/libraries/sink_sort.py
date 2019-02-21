@@ -1,8 +1,4 @@
-# Python program for implementation of Bubble Sort
-# Acknowledgement: GeeksforGeeks
-
-
-def bubble_sort(arr):
+def sink_sort(arr):
     n = len(arr)
 
 
@@ -15,16 +11,16 @@ def bubble_sort(arr):
             # traverse the array from 0 to n-i-1
             # Swap if the element found is greater
             # than the next element
-            if arr[j] > arr[j + 1]:
+            if arr[j] < arr[j + 1]:
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
             print(arr)
 
 
 # Driver code to test above
 arr = [64, 34, 25, 12, 22, 11, 90]
-arrstring = ["banana","apple","zzzz","aaaa"]
 
-bubble_sort(arrstring)
+
+sink_sort(arr)
 
 print("Sorted array is:")
 for i in range(len(arr)):
